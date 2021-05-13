@@ -128,10 +128,12 @@ function myGame(question, answer) {
         console.log("right!");
         score++;
         console.log("your current score is: ", score)
-        console.log("___________");
+        console.log("_________________________________________________________");
+        console.log(" ");
     } else {
         console.log("Wrong!");
-        console.log("___________");
+        console.log("_________________________________________________________");
+        console.log(" ");
     }
 }
 
