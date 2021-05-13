@@ -57,7 +57,7 @@ var mySelf = [{
 
 `,
         answer: "c"
-    }
+    },
 
     {
         question: `6.  What song is Phoebe best known for?
@@ -140,5 +140,7 @@ console.log("Answer these questions to know how much do you know about Friends."
 for (var i = 0; i < mySelf.length; i++) {
     myGame(mySelf[i].question, mySelf[i].answer);
 }
+
+console.log(" ");
 
 console.log("your total score is: ", score);
